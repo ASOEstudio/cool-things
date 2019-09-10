@@ -30,10 +30,10 @@ body {
     font-size: var(--global-font-size);
     line-height: var(--global-line-height);
 }
-body.night {
-    background-color: #fff;
+body.night-mode {
+    background-color: #2e143d;
     font: Arial,sans-serif;;
-    color: #151515;
+    color: #a696ad;
     font-size: 20px;
     line-height: 1.4em;
 }

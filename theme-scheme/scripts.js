@@ -16,7 +16,7 @@ function init() {
             console.log(element);
         }
 
-        if (hour < 6 || hour >= 9) nightMode();
+        if (hour < 6 || hour >= 12) nightMode();
     }
 }
 
