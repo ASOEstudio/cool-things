@@ -1,12 +1,16 @@
 var input;
 var label;
 var copyInput;
-init();
+this.init();
 
 function init() {
     this.input = document.getElementById('data');
     this.label = document.getElementById('label');
     this.copyInput = document.getElementById('copyBox');
+
+    // adiciona um eventListener no input
+    // this.eventInput();
+
     console.log('iniciado');
 }
 
@@ -21,13 +25,31 @@ function replace() {
 }
 
 function replaceCPF() {
-    // para sequencia de números "cria máscara de CPF"
-    // "$num" captura grupo como um array
-    // "?" faz com que o grupo deja opcional
-    this.label.innerHTML = this.input.value.replace(
-        /(\d{3})?(\d{3})?(\d{3})?(\d{2})?/,
-        "$1.$2.$3-$4"
-    );
+    // antes de executar o replace testa se ainda tem algum caracter que não seja números
+    let text = this.input.value.match(/[./-]/g);
+    if (text == null) {
+        console.log('não tem caracter especial');
+
+        // para sequencia de números "cria máscara de CPF"
+        // "$num" captura grupo como um array
+        // "?" faz com que o grupo deja opcional
+        this.label.innerHTML = this.input.value.replace(
+            /(\d{3})?(\d{3})?(\d{3})?(\d{2})?/,
+            "$1.$2.$3-$4"
+        );
+    
+    } else {
+        console.log('tem caracter especial', text);
+        this.label.innerHTML = 'por favor use apenas números';
+    }
+}
+
+function eventInput() {
+    // quando o input perder o foco é limpo os ".", "-" e "/"
+    this.input.addEventListener('focusout', (event) => {
+        const data = event.target.value;
+        this.input.value = data.replace(/[./-]/g, '');
+    })
 }
 
 // function execute() {
