@@ -15,9 +15,19 @@ function replace() {
     // this.label.innerHTML = this.input.value.replace('palavão', '***');
     
     // para todos os termos que correspondam "g" para buscar de forma global 
-    this.label.innerHTML = this.input.value.replace(/palavão/g, '***');
+    // this.label.innerHTML = this.input.value.replace(/palavão/g, '***');
 
     this.input.value = '';
+}
+
+function replaceCPF() {
+    // para sequencia de números "cria máscara de CPF"
+    // "$num" captura grupo como um array
+    // "?" faz com que o grupo deja opcional
+    this.label.innerHTML = this.input.value.replace(
+        /(\d{3})?(\d{3})?(\d{3})?(\d{2})?/,
+        "$1.$2.$3-$4"
+    );
 }
 
 // function execute() {
