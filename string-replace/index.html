@@ -9,9 +9,18 @@
 <body>
   <main>
     <section>
+      <input id="copyBox" type="text" value="palavra palavão palavra palavão palavra palavão" />
+    </section>
+    <section>
+      <button onclick="copyText()">copiar texto</button>
+      <button onclick="pasteText()">colar texto</button>
+    </section>
+
+    <section>
       <textarea id="data"></textarea>
       <label id="label"></label>
     </section>
+
     <section>
       <!-- <button onclick="execute()">executar script</button> -->
       <button onclick="replace()">replace palavão</button>
