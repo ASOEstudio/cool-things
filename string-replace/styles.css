@@ -1,0 +1,30 @@
+:root {
+    --global-font-size: 20px;
+    --global-line-height: 1.4em;
+    --font-stack: Arial,sans-serif;
+    --background-color: #fff;
+    --font-color: #151515;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #222225;
+        --font-color: #e8e9ed;
+    }
+}
+
+body {
+    background-color: var(--background-color);
+    font: var(--font-stack);
+    color: var(--font-color);
+    font-size: var(--global-font-size);
+    line-height: var(--global-line-height);
+}
+
+section {
+    padding: 1rem;
+}
+
+label {
+    margin-right: .5rem;
+}
