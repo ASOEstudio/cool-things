@@ -1,5 +1,5 @@
 (function() {
-    // 'use strict';
+    'use strict';
 
     // setando elementos no DOM
     var elHeader = document.querySelector('header'),
