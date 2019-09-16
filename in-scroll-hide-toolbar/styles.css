@@ -24,15 +24,18 @@ body {
 }
 
 header {
+    text-align: center;
     padding: 1rem;
     width: 100%;
     background: var(--diff-backgorund);
-    transition: transform .5s ease-in-out;
+    transition: all .5s ease-in-out;
     z-index: 1;
 }
     .header--position {
         position: fixed;
         top: 0;
+        font-size: 1.4rem;
+        line-height: 1.4;
     }
     .header--hidden {
         transform: translateY(-100%); 
@@ -40,11 +43,20 @@ header {
     .header--show {
         transform: translateY(0%);
     }
+    .header--page-top {
+        font-size: 2rem;
+        line-height: 2;
+    }
 
 main {
     position: relative;
+    top: 96px;
     padding: 1rem 1rem 1.75rem;
+    transition: top .5s ease-in-out;
 }
+    .main--page-top {
+        top: 0px;
+    }
 
 footer {
     width: 100%;
