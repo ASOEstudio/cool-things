@@ -1,0 +1,46 @@
+:root {
+    --global-font-size: 20px;
+    --global-line-height: 1.4em;
+    --font-stack: Arial,sans-serif;
+    --background-color: #fff;
+    --diff-backgorund: #666;
+    --font-color: #151515;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #222225;
+        --font-color: #e8e9ed;
+    }
+}
+
+body {
+    background-color: var(--background-color);
+    font: var(--font-stack);
+    color: var(--font-color);
+    font-size: var(--global-font-size);
+    line-height: var(--global-line-height);
+    margin: unset;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    padding: 1rem;
+    width: 100%;
+    background: var(--diff-backgorund);
+    z-index: 1;
+}
+
+main {
+    position: relative;
+    padding: 1rem;
+}
+
+p:first-child {
+    margin-top: unset;
+}
+
+label {
+    margin-right: .5rem;
+}
