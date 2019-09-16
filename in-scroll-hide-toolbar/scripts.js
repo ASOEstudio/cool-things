@@ -14,22 +14,46 @@
     console.log('top main', elMain.style.top);
 
     // setando variáveis para scroll
-    var docHeight = 0,
-        winHeight = 0,
-        winScrollCurrent = 0;
+    // var docHeight = 0,
+    //     winHeight = 0,
+    var winScrollCurrent = 0,
+        winScrollBefore = 0;
         // winScrollDiff = 0,
-        // winScrollBefore = 0;
 
     window.addEventListener('scroll', function() {
 
         // setando elementos no DOM
-        docHeight = document.body.offsetHeight;
-        winHeight = window.innerHeight;
+        // docHeight = document.body.offsetHeight;
+        // winHeight = window.innerHeight;
         winScrollCurrent = window.pageYOffset;
-        // winScrollDiff = winScrollBefore - winScrollCurrent;
+        
+        // console.log('docHeight', docHeight, 'winHeight', winHeight,
+        // 'winScrollCurrent', winScrollCurrent, 'winScrollBefore', winScrollBefore);
+        
+        // scroll movido para baixo
+        if (winScrollCurrent > 0) {
 
-        console.log('docHeight', docHeight, 'winHeight', winHeight,
-            'winScrollCurrent', winScrollCurrent); //, 'winScrollDiff', winScrollDiff
+            // verifica se o scroll continua indo para baixo
+            if (winScrollBefore < winScrollCurrent) {
+                winScrollBefore = winScrollCurrent;
+                
+                elHeader.classList.remove('header--show');
+                elHeader.classList.add('header--hidden');
+                // console.log('incrementando before', winScrollBefore);
+            }
+            // verifica se p scroll começou a ir para cima
+            else {
+                winScrollBefore = winScrollCurrent;
+
+                elHeader.classList.remove('header--hidden');
+                elHeader.classList.add('header--show');
+            }
+        }
+        // scroll '0' no topo da página
+        else {
+            elHeader.classList.remove('header--hidden');
+            elHeader.classList.add('header--show');
+        };
     })
 
 }());
