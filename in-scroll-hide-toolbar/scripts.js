@@ -1,14 +1,16 @@
 (function() {
-    'use strict';
+    // 'use strict';
 
     // setando elementos no DOM
     var elHeader = document.querySelector('header'),
-        elMain = document.querySelector('main');
+        elMain = document.querySelector('main'),
+        elFooter = document.querySelector('.footer__copy');
 
     // sai da função se o elemento não existir
-    if(!elHeader) return true;
+    if(!elHeader && !elMain && !elFooter) return true;
 
     elMain.style.top = elHeader.clientHeight;
+    elFooter.innerHTML = `copyright &copy; ${new Date().getFullYear()}`
     
     console.log('altura do header', elHeader.clientHeight);
     console.log('top main', elMain.style.top);
@@ -55,5 +57,12 @@
             elHeader.classList.add('header--show');
         };
     })
-
 }());
+
+function scrollToTop() {
+    window.scroll({
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth' 
+    });
+}

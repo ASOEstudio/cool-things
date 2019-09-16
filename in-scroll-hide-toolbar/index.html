@@ -4,12 +4,14 @@
   <title>testing hide header when scroll down</title>
   <link href="styles.css" rel="stylesheet">
   <script defer src="scripts.js"></script>
+  <script defer src="scriptsClick.js"></script>
 </head>
 
 <body>
   <header class="header--position">
     Cabeçalho
   </header>
+
   <main>
     <section>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus soluta quae, neque ex enim, quibusdam
@@ -42,6 +44,11 @@
         nesciunt quas laudantium eos aut. Reprehenderit eveniet sed hic ex nam facilis nulla dolore! Itaque.</p>
     </section>
   </main>
+
+  <footer>
+    <div class="footer__copy"></div>
+    <div class="footer__to-top" onclick="scrollToTop()">^</div>
+  </footer>
 </body>
 
 </html>
