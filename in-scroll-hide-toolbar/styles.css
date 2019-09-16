@@ -47,18 +47,35 @@ main {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: transform .5s ease-in-out;
+    z-index: 1;
 }
+    .footer--position {
+        position: fixed;
+        bottom: 0;
+    }
+    .footer--hidden {
+        transform: translateY(100%); 
+    }
+    .footer--show {
+        transform: translateY(0%);
+    }
     .footer__copy {
         font-size: 1rem;
         text-align: center;
         width: 100%;
+        transition: opacity .5s ease-in-out;
     }
+        .footer__copy--hidden {
+            opacity: 0;
+        }
+        .footer__copy--show {
+            opacity: 1;
+        }
     .footer__to-top {
         width: auto;
         font-weight: 600;
