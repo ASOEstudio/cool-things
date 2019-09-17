@@ -6,7 +6,9 @@
     var elHeader = document.querySelector('header'),
         elMain = document.querySelector('main'),
         elFooter = document.querySelector('footer'),
-        elCopyFooter = document.querySelector('.footer__copy');
+        elCopyFooter = document.querySelector('.footer__copy'),
+
+        elScrollIndc = document.querySelector('.section__scroll-indicator');
 
     // sai da função se o elemento não existir
     if(!elHeader && !elMain && !elFooter && !elCopyFooter) return true;
@@ -18,14 +20,21 @@
     var docHeight = 0,
         winHeight = 0,
         winScrollCurrent = 0,
-        winScrollBefore = 0;
+        winScrollBefore = 0,
+        scrPercent = 0;
 
     window.addEventListener('scroll', function() {
 
         // setando elementos no DOM
         docHeight = document.body.scrollHeight;
         winHeight = window.innerHeight;
-        winScrollCurrent = window.pageYOffset;
+        winScrollCurrent = window.pageYOffset ||
+            document.body.scrollTop || document.documentElement.scrollTop;
+        // determinando porcentagem para posição do scroll
+        scrPercent = (winScrollCurrent * 100) / (docHeight - winHeight);
+
+        // definindo tamanho do scroll
+        elScrollIndc.style.width = scrPercent + '%';
         
         // scroll movido para baixo
         if (winScrollCurrent > 0) {

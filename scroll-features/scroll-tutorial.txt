@@ -1,0 +1,6 @@
+## auto hide when scroll;
+https://osvaldas.info/auto-hide-sticky-header
+https://osvaldas.info/examples/auto-hide-sticky-header/?reactive
+
+## scroll indicator;
+https://www.w3schools.com/howto/howto_js_scroll_indicator.asp
