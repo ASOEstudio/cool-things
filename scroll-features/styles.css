@@ -25,6 +25,19 @@ body {
     margin: unset;
 }
 
+section.section {
+    position: fixed;
+    height: 10px;
+    width: 100%;
+    background-color: var(--scroll-container-background);
+    z-index: 2;
+}
+    .section__scroll-indicator {
+        height: 100%;
+        width: 0%;
+        background-color: var(--scroll-indicator-background);
+    }
+
 header {
     text-align: center;
     padding: 1rem;
