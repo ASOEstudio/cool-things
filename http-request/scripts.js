@@ -6,12 +6,14 @@ var secEl = document.getElementsByTagName('section')[0];
 function loadXMLDoc() {
     var xhttp = new XMLHttpRequest();
 
+    // preparando objeto para envio
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             handleResponse(this.responseText);
             XMLParser(this.responseText);
         }
     };
+    // setando método de requisição destino
     xhttp.open('GET', 'xmlhttp_info.txt', true);
     xhttp.send();
 }
@@ -28,7 +30,7 @@ function XMLParser(response) {
 function handleResponse(response) {
     // colocando a resposta da requisição dentro da section 
     secEl.innerHTML = response;
-    // criando novo elemento no DOM
+    // criando novos elementos no DOM
     textDescription();
     newElement();
 }
@@ -36,6 +38,7 @@ function handleResponse(response) {
 function textDescription() {
     let divEl;
 
+    // criando Element <div>
     divEl = document.createElement('div');
     divEl.innerHTML = `
         <p>With the XMLHttpRequest object you can update parts of a web page,
@@ -43,9 +46,12 @@ function textDescription() {
         <p>The XMLHttpRequest object is used to exchange data
             with a server behind the scenes.</p>
     `;
+    // colocando atributo classe e seus valores
     divEl.setAttribute('class', 'criado criado--desc');
 
     // document.body.insertBefore(divEl, secEl);
+
+    // posicionando elemento dentro do pai no início de tudo
     secEl.insertAdjacentHTML('afterbegin', divEl.outerHTML);
 }
 
@@ -63,12 +69,10 @@ function newElement(item) {
     // colocando atributo classe e seus valores
     parag.setAttribute('class', 'criado criado--destaque');
 
-    console.log(parag.outerHTML);
-
     // posicionando elemento antes do elemento pai
     // document.body.insertBefore(parag, secEl);
     // document.body.append(parag);
 
-    // posicionando elemento dentro do pai no início
+    // posicionando elemento dentro do pai no fim de todos os elementos
     secEl.insertAdjacentHTML('beforeend', parag.outerHTML);
 }
