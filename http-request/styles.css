@@ -5,6 +5,7 @@
     --background-color: #222225;
     --font-color: #e8e9ed;
     --diff-color: #23f35f;
+    --light-color: #8f8f8f;
 }
 
 body {
@@ -18,5 +19,10 @@ body {
 
 .criado {
     font-weight: 600;
-    color: var(--diff-color);
 }
+    .criado--destaque {
+        color: var(--diff-color);
+    }
+    .criado--desc {
+        color: var(--light-color);
+    }
