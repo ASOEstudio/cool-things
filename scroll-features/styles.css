@@ -61,6 +61,7 @@ header {
     .header--page-top {
         font-size: 2rem;
         line-height: 2;
+        background: var(--background-color);
     }
 
 main {
