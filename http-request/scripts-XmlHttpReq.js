@@ -14,7 +14,7 @@ function loadXMLDoc() {
         }
     };
     // setando método de requisição destino
-    xhttp.open('GET', 'xmlhttp_info.txt', true);
+    xhttp.open('GET', 'xmlhttp_info.xml', true);
     xhttp.send();
 }
 

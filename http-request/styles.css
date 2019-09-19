@@ -16,6 +16,13 @@ body {
     line-height: var(--global-line-height);
     margin: unset;
 }
+table {
+    font-size: .75rem;
+}
+thead {
+    text-align: left;
+    font-weight: 600;
+}
 
 .criado {
     font-weight: 600;
