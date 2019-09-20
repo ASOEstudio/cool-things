@@ -74,6 +74,7 @@ function handler(res) {
     for (let i = 0; i <= data.length; i++) {
         if (i == 0) {
             lines += '<table><thead><th><td>teste</th></td></thead><tbody>';
+            
         } else if (i < data.length) {
             lines += `<tr><td>${data[i].ValidatingCarrier}</td></tr>`;
             // console.log(lines, i);
@@ -92,13 +93,4 @@ function handler(res) {
         }
     }
 
-    // data.forEach((row, i = index) => {
-    //     if (i < data.length) {
-    //         lines += `<tr><td>${row.ValidatingCarrier}</td></tr>`;
-    //         console.log(lines, i);
-    //     }
-    // })
-
-    // console.log(table);
-    // console.log(rows);
 }
