@@ -10,7 +10,7 @@ function loadAjax() {
             callback(this.responseText);
         }
     };
-    xhttp.open('GET', 'cd_catalog.xml', true);
+    xhttp.open('GET', 'data/cd_catalog.xml', true);
     xhttp.send();
 }
 

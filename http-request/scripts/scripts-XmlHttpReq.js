@@ -14,7 +14,7 @@ function loadXMLDoc() {
         }
     };
     // setando método de requisição destino
-    xhttp.open('GET', 'xmlhttp_info.xml', true);
+    xhttp.open('GET', 'data/xmlhttp_info.xml', true);
     xhttp.send();
 }
 
@@ -23,8 +23,8 @@ function XMLParser(response) {
     var parser = new DOMParser(),
         xmlDoc = parser.parseFromString(response, 'text/xml');
     
-    // newElement(xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue);
-    newElement(xmlDoc.getElementsByTagName("title")[0].innerHTML);
+    // newElement(xmlDoc.getElementsByTagName('title')[0].childNodes[0].nodeValue);
+    newElement(xmlDoc.getElementsByTagName('title')[0].innerHTML);
 }
 
 function handleResponse(response) {
@@ -64,7 +64,7 @@ function newElement(item) {
 
     if (item) parag.innerHTML = item
     else parag.innerHTML = `
-            novo Element p com "${secEl.getAttribute('name')}" atributo do pai
+            novo Element p com '${secEl.getAttribute('name')}' atributo do pai
         `;
     // colocando atributo classe e seus valores
     parag.setAttribute('class', 'criado criado--destaque');

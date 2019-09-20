@@ -8,7 +8,7 @@ var secEl = document.getElementsByTagName('section')[0],
 });
 
 function loadFetch() {
-    fetch('cd_catalog.xml',
+    fetch('data/cd_catalog.xml',
         { method: 'GET', headers: myHeaders, mode: 'cors', cache: 'default' }
     )
     .then(res => {
@@ -29,7 +29,7 @@ function loadFetch() {
 }
 
 function loadFetchJson() {
-    fetch('json_mock.json',
+    fetch('data/json_mock.json',
         { method: 'GET', headers: myHeaders, mode: 'cors', cache: 'default' }
     )
     .then(res => {
