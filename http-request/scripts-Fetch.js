@@ -43,7 +43,62 @@ function loadFetchJson() {
 }
 
 function handler(res) {
-    let data = res.AvailabilitySummary.AvailabilitySummaryCarrier;
+    let data = res.AvailabilitySummary.AvailabilitySummaryCarrier,
+        parser = new DOMParser(),
+        // tableBase = '<table><thead></thead><tbody></tbody></table>',
+        table = '',
+        lines = '';
+        // rows = '';
 
-    console.log(data);
+    // table = parser.parseFromString(tableBase, 'text/xml');
+
+    // for (let i = 0; i <= data.length; i++) {
+    //     if(i < data.length) {
+    //         lines += `<tr><td>${data[i].ValidatingCarrier}</td></tr>`;
+    //         // console.log(lines, i);
+
+    //     } else {
+    //         rows = parser.parseFromString(lines, 'text/xml');
+    //         // console.log('chegou no fim', rows);
+            
+    //         let x = table.getElementsByTagName('tbody')[0],
+    //             y = table.getElementsByTagName('thead')[0];
+
+    //         x.insertAdjacentHTML('afterbegin', y);
+
+    //         console.log(rows);
+    //         console.log(x);
+    //     }
+    // }
+
+    for (let i = 0; i <= data.length; i++) {
+        if (i == 0) {
+            lines += '<table><thead><th><td>teste</th></td></thead><tbody>';
+        } else if (i < data.length) {
+            lines += `<tr><td>${data[i].ValidatingCarrier}</td></tr>`;
+            // console.log(lines, i);
+
+        } else {
+            lines += '</tbody></table>';
+
+            table = parser.parseFromString(lines, 'text/html');
+            console.log(lines);
+            console.log(table);
+
+            let tableEl = table.getElementsByTagName('table')[0];
+            console.log(tableEl);
+
+            secEl.insertAdjacentElement('afterbegin', tableEl);
+        }
+    }
+
+    // data.forEach((row, i = index) => {
+    //     if (i < data.length) {
+    //         lines += `<tr><td>${row.ValidatingCarrier}</td></tr>`;
+    //         console.log(lines, i);
+    //     }
+    // })
+
+    // console.log(table);
+    // console.log(rows);
 }
