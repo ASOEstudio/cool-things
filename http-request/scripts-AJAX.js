@@ -3,16 +3,16 @@
 // capturando elemento do DOM
 var secEl = document.getElementsByTagName('section')[0];
 
-// function loadDoc() {
-//     var xhttp = new XMLHttpRequest();
-//     xhttp.onreadystatechange = function () {
-//         if (this.readyState == 4 && this.status == 200) {
-//             callback(this.responseText);
-//         }
-//     };
-//     xhttp.open('GET', 'cd_catalog.xml', true);
-//     xhttp.send();
-// }
+function loadAjax() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            callback(this.responseText);
+        }
+    };
+    xhttp.open('GET', 'cd_catalog.xml', true);
+    xhttp.send();
+}
 
 function callback(response) {
     var i,
