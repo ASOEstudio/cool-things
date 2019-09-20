@@ -1,0 +1,839 @@
+{
+  "AvailabilitySummary": {
+    "AvailabilitySummaryCarrier": [
+      {
+        "ValidatingCarrier": "DL",
+        "AvailabilitySummaryDetail": [
+          {
+            "StopsNumber": 1,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 6047.824,
+              "TotalFare": 5544.684,
+              "TotalTaxes": 478.14,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 353.916,
+              "TotalFeeRC": 353.916,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 5898.60,
+              "TotalOriginal": 6401.74
+            }
+          },
+          {
+            "StopsNumber": 2,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 6047.824,
+              "TotalFare": 5544.684,
+              "TotalTaxes": 478.14,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 353.916,
+              "TotalFeeRC": 353.916,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 5898.60,
+              "TotalOriginal": 6401.74
+            }
+          },
+          {
+            "StopsNumber": 3,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          }
+        ]
+      },
+      {
+        "ValidatingCarrier": "LH",
+        "AvailabilitySummaryDetail": [
+          {
+            "StopsNumber": 1,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 8967.798,
+              "TotalFare": 8289.888,
+              "TotalTaxes": 652.91,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 529.142,
+              "TotalFeeRC": 529.142,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 8819.03,
+              "TotalOriginal": 9496.94
+            }
+          },
+          {
+            "StopsNumber": 2,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 8682.31,
+              "TotalFare": 7937.05,
+              "TotalTaxes": 720.26,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 506.62,
+              "TotalFeeRC": 506.62,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 8443.67,
+              "TotalOriginal": 9188.93
+            }
+          },
+          {
+            "StopsNumber": 3,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          }
+        ]
+      },
+      {
+        "ValidatingCarrier": "CA",
+        "AvailabilitySummaryDetail": [
+          {
+            "StopsNumber": 1,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 10165.358,
+              "TotalFare": 9619.838,
+              "TotalTaxes": 520.52,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 614.032,
+              "TotalFeeRC": 614.032,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 10233.87,
+              "TotalOriginal": 10779.39
+            }
+          },
+          {
+            "StopsNumber": 2,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 9864.794,
+              "TotalFare": 9290.264,
+              "TotalTaxes": 549.53,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 592.996,
+              "TotalFeeRC": 592.996,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 9883.26,
+              "TotalOriginal": 10457.79
+            }
+          },
+          {
+            "StopsNumber": 3,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          }
+        ]
+      },
+      {
+        "ValidatingCarrier": "KL",
+        "AvailabilitySummaryDetail": [
+          {
+            "StopsNumber": 1,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          },
+          {
+            "StopsNumber": 2,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 5857.543,
+              "TotalFare": 5405.103,
+              "TotalTaxes": 427.44,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 345.007,
+              "TotalFeeRC": 345.007,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 5750.11,
+              "TotalOriginal": 6202.55
+            }
+          },
+          {
+            "StopsNumber": 3,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          }
+        ]
+      },
+      {
+        "ValidatingCarrier": "AF",
+        "AvailabilitySummaryDetail": [
+          {
+            "StopsNumber": 1,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          },
+          {
+            "StopsNumber": 2,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 5887.311,
+              "TotalFare": 5354.691,
+              "TotalTaxes": 507.62,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 341.789,
+              "TotalFeeRC": 341.789,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 5696.48,
+              "TotalOriginal": 6229.10
+            }
+          },
+          {
+            "StopsNumber": 3,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          }
+        ]
+      },
+      {
+        "ValidatingCarrier": "LA",
+        "AvailabilitySummaryDetail": [
+          {
+            "StopsNumber": 1,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          },
+          {
+            "StopsNumber": 2,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 6412.924,
+              "TotalFare": 5854.734,
+              "TotalTaxes": 533.19,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 373.706,
+              "TotalFeeRC": 373.706,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 6228.44,
+              "TotalOriginal": 6786.63
+            }
+          },
+          {
+            "StopsNumber": 3,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          }
+        ]
+      },
+      {
+        "ValidatingCarrier": "UA",
+        "AvailabilitySummaryDetail": [
+          {
+            "StopsNumber": 1,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          },
+          {
+            "StopsNumber": 2,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 6827.747,
+              "TotalFare": 6277.517,
+              "TotalTaxes": 525.23,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 400.693,
+              "TotalFeeRC": 400.693,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 6678.21,
+              "TotalOriginal": 7228.44
+            }
+          },
+          {
+            "StopsNumber": 3,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          }
+        ]
+      },
+      {
+        "ValidatingCarrier": "NH",
+        "AvailabilitySummaryDetail": [
+          {
+            "StopsNumber": 1,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          },
+          {
+            "StopsNumber": 2,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 6827.747,
+              "TotalFare": 6277.517,
+              "TotalTaxes": 525.23,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 400.693,
+              "TotalFeeRC": 400.693,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 6678.21,
+              "TotalOriginal": 7228.44
+            }
+          },
+          {
+            "StopsNumber": 3,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          }
+        ]
+      },
+      {
+        "ValidatingCarrier": "AC",
+        "AvailabilitySummaryDetail": [
+          {
+            "StopsNumber": 1,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          },
+          {
+            "StopsNumber": 2,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 7287.539,
+              "TotalFare": 6913.409,
+              "TotalTaxes": 349.13,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 441.281,
+              "TotalFeeRC": 441.281,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 7354.69,
+              "TotalOriginal": 7728.82
+            }
+          },
+          {
+            "StopsNumber": 3,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          }
+        ]
+      },
+      {
+        "ValidatingCarrier": "JL",
+        "AvailabilitySummaryDetail": [
+          {
+            "StopsNumber": 1,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          },
+          {
+            "StopsNumber": 2,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 7968.734,
+              "TotalFare": 7339.924,
+              "TotalTaxes": 603.81,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 468.506,
+              "TotalFeeRC": 468.506,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 7808.43,
+              "TotalOriginal": 8437.24
+            }
+          },
+          {
+            "StopsNumber": 3,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          }
+        ]
+      },
+      {
+        "ValidatingCarrier": "CX",
+        "AvailabilitySummaryDetail": [
+          {
+            "StopsNumber": 1,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          },
+          {
+            "StopsNumber": 2,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 9077.046,
+              "TotalFare": 7328.296,
+              "TotalTaxes": 1723.75,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 467.764,
+              "TotalFeeRC": 467.764,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 7796.06,
+              "TotalOriginal": 9544.81
+            }
+          },
+          {
+            "StopsNumber": 3,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          }
+        ]
+      },
+      {
+        "ValidatingCarrier": "AA",
+        "AvailabilitySummaryDetail": [
+          {
+            "StopsNumber": 1,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          },
+          {
+            "StopsNumber": 2,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 9944.972,
+              "TotalFare": 9418.142,
+              "TotalTaxes": 501.83,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 601.158,
+              "TotalFeeRC": 601.158,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 10019.30,
+              "TotalOriginal": 10546.13
+            }
+          },
+          {
+            "StopsNumber": 3,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          }
+        ]
+      },
+      {
+        "ValidatingCarrier": "BA",
+        "AvailabilitySummaryDetail": [
+          {
+            "StopsNumber": 1,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          },
+          {
+            "StopsNumber": 2,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 10075.389,
+              "TotalFare": 9220.469,
+              "TotalTaxes": 829.92,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 588.541,
+              "TotalFeeRC": 588.541,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 9809.01,
+              "TotalOriginal": 10663.93
+            }
+          },
+          {
+            "StopsNumber": 3,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 10075.389,
+              "TotalFare": 9220.469,
+              "TotalTaxes": 829.92,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 588.541,
+              "TotalFeeRC": 588.541,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 9809.01,
+              "TotalOriginal": 10663.93
+            }
+          }
+        ]
+      },
+      {
+        "ValidatingCarrier": "KE",
+        "AvailabilitySummaryDetail": [
+          {
+            "StopsNumber": 1,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          },
+          {
+            "StopsNumber": 2,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 10663.416,
+              "TotalFare": 9842.176,
+              "TotalTaxes": 796.24,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 628.224,
+              "TotalFeeRC": 628.224,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 10470.40,
+              "TotalOriginal": 11291.64
+            }
+          },
+          {
+            "StopsNumber": 3,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          }
+        ]
+      },
+      {
+        "ValidatingCarrier": "IB",
+        "AvailabilitySummaryDetail": [
+          {
+            "StopsNumber": 1,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          },
+          {
+            "StopsNumber": 2,
+            "MinimumTotalFare": {
+              "Currency": "BRL",
+              "Total": 14340.81,
+              "TotalFare": 13533.97,
+              "TotalTaxes": 781.84,
+              "TotalFee": 25,
+              "TotalAdditionalFee": 863.87,
+              "TotalFeeRC": 863.87,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "feeRCTypeCollection": "D",
+              "TotalFareOriginal": 14397.84,
+              "TotalOriginal": 15204.68
+            }
+          },
+          {
+            "StopsNumber": 3,
+            "MinimumTotalFare": {
+              "Total": 0,
+              "TotalFare": 0,
+              "TotalTaxes": 0,
+              "TotalFee": 0,
+              "TotalAdditionalFee": 0,
+              "TotalFeeRC": 0,
+              "TotalHiddenFee": 0,
+              "TotalDU": 0,
+              "TotalAncillary": 0,
+              "TotalFareOriginal": 0,
+              "TotalOriginal": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
