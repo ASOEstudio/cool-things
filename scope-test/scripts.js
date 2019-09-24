@@ -1,14 +1,14 @@
 // Global
-var varTest = 1;
-nonVartest = 2;
+var varTest = 'varTest';
+nonVartest = 'nonVartest';
 
 init1();
 
 function init1() {
     // Escopo privado
-    var varFunTest = 3;
+    var varFunTest = 'varFunTest';
     // Global
-    nonVarFunTest = 4;
+    nonVarFunTest = 'nonVarFunTest';
 }
 
 console.log(`
@@ -22,10 +22,20 @@ console.log(`
  * "Immediately Invoked Function Expressions" ou "Self Executing Functions"
  */
 (function () {
+    // Escopo privado Compartilhado dentro da IIFE
+    var varImmFunTest = 'varImmFunTest';
+
     console.log(`
         dentro de function escopo var: ${varTest};
         dentro de function escopo sem var: ${nonVartest};
         // erro > dentro de function escopo function var: {varFunTest};
         dentro de function escopo function sem var: ${nonVarFunTest};
     `);
+
+    function init2 () {
+
+        console.log(`
+            dentro da immediately invoked function: ${varImmFunTest};
+        `);
+    }
 }())
