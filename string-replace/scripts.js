@@ -67,3 +67,7 @@ function pasteText() {
     navigator.clipboard.readText()
         .then(text => this.input.value = text);
 }
+
+function clearAccents() {
+    this.label.innerHTML = this.input.value.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
