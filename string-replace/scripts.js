@@ -69,5 +69,7 @@ function pasteText() {
 }
 
 function clearAccents() {
+    // normalize() retorna valores unicode de cada caracter da string
+    // Formato de Normalização Canônico de Composição (NFC), ou vazio
     this.label.innerHTML = this.input.value.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 }
